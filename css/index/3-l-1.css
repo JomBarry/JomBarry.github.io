@@ -1,0 +1,36 @@
+
+.index-3-l-1-main {
+    background-color: white;
+    padding: 15px;
+}
+
+.index-3-l-1-title {
+    border-bottom: #3c3c3c solid 1px;
+}
+
+.index-3-l-1-content {
+    padding: 15px;
+}
+
+.index-3-l-1-blog {
+    border-bottom: #3c3c3c dashed 1px;
+    border-right: #3c3c3c dashed 1px;
+}
+
+.index-3-l-1-blogTitle {
+    table-layout: fixed;
+    word-break: break-all;
+    display: inline-block;
+    width: 100%;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.index-3-l-1-blogContent {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 3; /* 设置行数 */
+    -webkit-box-orient: vertical;
+}

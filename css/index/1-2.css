@@ -1,0 +1,10 @@
+
+.index-1-2-main {
+    margin: 15px 0 0 0;
+    height: 100px;
+}
+
+.index-1-2-main > div > div {
+    height: 100px;
+    background-color: #c0a16b;
+}

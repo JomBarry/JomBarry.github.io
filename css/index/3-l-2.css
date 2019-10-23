@@ -1,0 +1,66 @@
+
+.index-3-l-2-main {
+    margin: 15px 0 0 0;
+}
+
+.index-3-l-2-title {
+    padding: 15px;
+    border-bottom: #3c3c3c solid 1px;
+    background-color: white;
+}
+
+.index-3-l-2-content {
+    padding: 0 15px;
+}
+
+.index-3-l-2-content > div:first-child {
+    padding-left: 0;
+}
+
+.index-3-l-2-content > div:last-child {
+    padding-right: 0;
+}
+
+.index-3-l-2-blogContent-1 {
+    padding: 0 15px;
+}
+
+.index-3-l-2-blogTitle-1, .index-3-l-2-blogTitle-2 {
+    table-layout: fixed;
+    word-break: break-all;
+    display: inline-block;
+    width: 100%;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.index-3-l-2-blogText-1, .index-3-l-2-blogText-2 {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2; /* 设置行数 */
+    -webkit-box-orient: vertical;
+}
+
+.index-3-l-2-blogFooter-1 > div {
+    display: inline-block;
+    padding: 1px 5px;
+    background-color: #E9EAED;
+}
+
+.index-3-l-2-blog-2 > img {
+    width: calc(100% / 3 - 90px);
+    float: left;
+}
+
+.index-3-l-2-blogContent-2 {
+    width: calc(100% / 3 * 2 + 75px);
+    height: 100%;
+    padding-left: 15px;
+    float: left;
+}
+
+.index-3-l-2-blogFooter-2 > span:last-child {
+    float: right;
+}

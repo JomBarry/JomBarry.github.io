@@ -1,0 +1,53 @@
+body {
+    padding-top: 70px;
+    background-color: #E9EAED !important;
+}
+
+.container {
+    /*padding: 0 !important;*/
+}
+
+/* header */
+.nav-logo-masthead {
+    color: whitesmoke !important;
+}
+
+.nav-search-masthead {
+    line-height: 50px !important;
+    color: #fff;
+    font-size: medium;
+}
+
+/* footer */
+.bs-docs-footer {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    color: whitesmoke;
+}
+
+.bs-docs-footer a {
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+.bs-docs-footer a:hover {
+    color: white;
+    text-decoration: underline;
+}
+
+.footer-left-images-desc {
+    width: 100px;
+    margin-top: 5px;
+}
+
+.bs-docs-footer-links {
+    display: inline-block;
+}
+
+.footer-main > .row{
+    padding-bottom: 10px;
+    border-bottom: #777777 solid 1px;
+}
+.footer-main > div:last-child{
+    margin-top: 10px;
+}
